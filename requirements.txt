@@ -1,0 +1,39 @@
+# LLM & core tools
+langgraph>=0.3.27
+langgraph-sdk>=0.1.66
+langgraph-checkpoint>=2.0.23
+langchain-core>=0.3.21
+langsmith>=0.1.63
+langchain>=0.3.0
+langchain-openai
+langchain-community
+
+# HTTP requests & async support
+requests>=2.32.3
+httpx>=0.25.0
+tenacity>=8.0.0
+orjson>=3.9.7,<3.10.17
+uvicorn>=0.26.0
+sse-starlette>=2.1.0,<2.2.0
+uvloop>=0.18.0
+httptools>=0.5.0
+
+# Data validation & logging
+jsonschema-rs>=0.20.0
+structlog>=24.1.0
+cloudpickle>=3.0.0
+
+# OpenAI API client (para ChatOpenAI)
+openai>=1.68.2,<2.0.0
+
+# .env loader
+python-dotenv>=0.21.0
+
+# Google Calendar API
+google-api-python-client>=2.88.0
+google-auth>=2.20.0
+google-auth-httplib2>=0.1.0
+google-auth-oauthlib>=0.7.1
+
+# Streamlit
+streamlit
